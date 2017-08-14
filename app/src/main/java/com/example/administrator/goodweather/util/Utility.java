@@ -40,9 +40,9 @@ public class Utility {
                                              int provinceId){
         if(!TextUtils.isEmpty(response)){
             try{
-                JSONArray allCitys=new JSONArray(response);
-                for(int i=0;i<allCitys.length();i++){
-                    JSONObject cityObject=allCitys.getJSONObject(i);
+                JSONArray allCities=new JSONArray(response);
+                for(int i=0;i<allCities.length();i++){
+                    JSONObject cityObject=allCities.getJSONObject(i);
                     City city=new City();
                     city.setcityName(cityObject.getString("name"));
                     city.setcityCode(cityObject.getInt("id"));
@@ -62,9 +62,9 @@ public class Utility {
                                              int cityId){
         if(!TextUtils.isEmpty(response)){
             try{
-                JSONArray allCountys=new JSONArray(response);
-                for(int i=0;i<allCountys.length();i++){
-                    JSONObject countyObject=allCountys.getJSONObject(i);
+                JSONArray allCounties=new JSONArray(response);
+                for(int i=0;i<allCounties.length();i++){
+                    JSONObject countyObject=allCounties.getJSONObject(i);
                     County county=new County();
                     county.setcountyName(countyObject.getString("name"));
                     county.setWeatherId(countyObject.getString("weather_id"));
