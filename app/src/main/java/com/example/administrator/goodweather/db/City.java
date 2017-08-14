@@ -21,19 +21,19 @@ public class City extends DataSupport {
     public String getcityName(){
         return cityName;
     }
-    public void setcityName(){
+    public void setcityName(String cityName){
         this.cityName=cityName;
     }
     public int getcityCode(){
         return cityCode;
     }
-    public void setcityCode(){
+    public void setcityCode(int cityCode){
         this.cityCode=cityCode;
     }
     public int getProvinceId(){
         return provinceId;
     }
-    public void setProvinceId(){
+    public void setProvinceId(int provinceId){
         this.provinceId=provinceId;
     }
 }

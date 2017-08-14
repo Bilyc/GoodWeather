@@ -21,7 +21,7 @@ public class County extends DataSupport {
     public String getcountyName(){
         return countyName;
     }
-    public void setcountyName(){
+    public void setcountyName(String countyName){
         this.countyName=countyName;
     }
     public String getWeatherId(){
@@ -33,7 +33,7 @@ public class County extends DataSupport {
     public int getcityId(){
         return cityId;
     }
-    public void setcityId(){
+    public void setcityId(int cityId){
         this.cityId=cityId;
     }
 }
