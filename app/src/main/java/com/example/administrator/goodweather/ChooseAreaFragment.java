@@ -33,6 +33,7 @@ import okhttp3.Response;
  * Created by Administrator on 2017/8/14 0014.
  */
 
+
 public class ChooseAreaFragment extends Fragment {
 
     private static final String TAG = "ChooseAreaFragment";
